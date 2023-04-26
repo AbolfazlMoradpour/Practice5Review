@@ -18,9 +18,11 @@ public class Main {
     * static & final_static fields:
     * */
     public static void main(String[] args) {
+        Static_Demo st1 = new Static_Demo();
         System.out.println(Static_Demo.number1);    /*should use class name to access fields*/
         System.out.println(Static_Demo.number1);
         System.out.println(Static_Demo.number2);    /*cant change this value*/
+        System.out.println(Static_Demo.number4);    /*print number of obj that created*/
     }
     /*
      * Tips:
